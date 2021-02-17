@@ -1,0 +1,13 @@
+/* нормализация стилей */
+@import url(../vendor/normalize.css);
+/* шрифты */
+@import url(../fonts/inter.css);
+/* стиль (обертка) всей страницы */
+@import url(../blocks/page/page.css);
+
+  /* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
