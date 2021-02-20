@@ -1,16 +1,5 @@
 .page {
-  min-width: 320px;  
-  max-width: 1280px;
-  height: 600px;
-  background: #2A2C2F;
-  margin: 0 auto;
-  padding: 0;
-  
+  background-color: #2a2c2f;
+  font-family: 'Inter', 'Arial', 'sans-serif';
+  color: #fff;
 }
-
-.page { 
-  font-family: 'Inter', sans-serif; 
-}
-  @supports (font-variation-settings: normal) {
-    .page { font-family: 'Inter var', sans-serif; }
-  }
