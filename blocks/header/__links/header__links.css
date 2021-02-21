@@ -5,3 +5,12 @@
   line-height: 28px;
   margin-bottom: 6px;
 }
+
+@media screen and (max-width: 767px) {
+  .header__links {
+
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+} 
