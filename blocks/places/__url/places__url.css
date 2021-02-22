@@ -1,0 +1,12 @@
+.places__url {
+  align-self: flex-end;
+  box-sizing: border-box;
+  max-height: 46px;
+}
+
+@media screen and (max-width: 767px) {
+  .places__url {
+    width: calc(100% - 16px*2);
+    margin: 0 auto;
+  }
+}

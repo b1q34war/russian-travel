@@ -1,0 +1,147 @@
+.places {
+  max-width: 984px;
+  margin: 0 148px;
+  list-style: none;
+  padding: 0;
+}
+
+.places__card {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: max-content 1fr;
+  column-gap: 40px;
+  row-gap: 48px;
+  margin: 0 0 80px;
+  list-style: none;
+  padding: 0;
+}
+
+.places__card-title {
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.places__url {
+  align-self: flex-end;
+}
+
+.places__url-text {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+  padding: 0;
+  margin: 0 0 12px;
+}
+
+.places__url-link {
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+
+.places__card-texts {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  align-self: flex-start;
+}
+
+.places__card-text {
+  margin: 0 0 26px;
+  padding: 0;
+}
+
+.places__card-text:last-of-type {
+  margin: 0;
+  padding: 0;
+}
+
+.places__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    margin: 0 48px;
+    max-width: 100%;
+  }
+  .places__card {
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+  }
+  .places__card-texts {
+    font-size: 16px;
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    margin: 0 24px;
+  }
+  .places__card {
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+    row-gap: 48px;
+  }
+  .places__card-title {
+    font-size: 42px;
+    line-height: 46px;
+    width: 320px;
+  }
+  .places__card-texts {
+    width: 352px;
+    font-size: 16px;
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    margin: 0;
+  }
+  .places__card {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, max-content);
+    row-gap: 32px;
+    margin: 0 0 50px;
+  }
+  .places__card-title {
+    font-size: 32px;
+    line-height: 35px;
+    width: calc(100% - 16px*2);
+    margin: 0 auto;
+  }
+
+  .places__url {
+    width: calc(100% - 16px*2);
+    margin: 0 auto;
+  }
+
+
+  .places__card-texts {
+    font-size: 16px;
+    line-height: 26px;
+    width: calc(100% - 16px*2);
+    margin: 0 auto;
+  }
+
+  .places__card-text {
+    margin: 0 auto 25px;
+  }
+
+  .places__image {
+    width: 100%;
+  }
+}

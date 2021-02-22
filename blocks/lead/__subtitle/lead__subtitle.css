@@ -4,7 +4,7 @@
   max-width: 640px;
   min-height: 72px;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 120%;
   font-weight: 400;
   text-align: center;
 }
@@ -14,7 +14,7 @@
   .lead__subtitle {
     margin: 0 auto 56px;
   }
-} 
+}
 
 
 @media screen and (max-width: 767px) {

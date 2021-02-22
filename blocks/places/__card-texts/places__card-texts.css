@@ -1,0 +1,26 @@
+.places__card-texts {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 29px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__card-texts {
+    width: 352px;
+    font-size: 16px;
+    line-height: 163%;
+    width: 100%
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .places__card-texts {
+    font-size: 16px;
+    line-height: 26px;
+    width: calc(100% - 16px*2);
+    margin: 0 auto;
+  }
+}
