@@ -8,7 +8,6 @@
   grid-auto-rows: 1fr;
 }
 
-
 @media screen and (max-width: 1279px) {
   .foto-grid {
     grid-template-columns: repeat(3, 1fr);
