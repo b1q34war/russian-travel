@@ -1,0 +1,29 @@
+.road__el {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: calc(100% - 48px*2);
+  margin: 0 auto 92px;
+  position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .road__el {
+    min-width: 100%;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .road__el {
+    margin: 0 auto 88px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .road__el {
+    margin: 0 auto 64px;
+  }
+}

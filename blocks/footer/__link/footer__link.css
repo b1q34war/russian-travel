@@ -1,0 +1,11 @@
+.footer__link {
+  list-style: none;
+  display: inline;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__link:hover {
+opacity: 0.8;
+}

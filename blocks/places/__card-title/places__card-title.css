@@ -11,10 +11,6 @@
     font-size: 42px;
     line-height: 46px;
     width: 330px;
-    height: 46px;
-  }
-  .places__card-title_doble {
-    height: 92px;
   }
 }
 
@@ -24,8 +20,5 @@
     line-height: 35px;
     width: calc(100% - 16px*2);
     margin: 0 auto;
-  }
-  .places__card-title_doble {
-    height: 35px;
   }
 }

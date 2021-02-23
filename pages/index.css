@@ -18,18 +18,19 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-
+  /* intro */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-text/intro__list-text.css);
-
+  /* gread */
 @import url(../blocks/foto-grid/foto-grid.css);
 @import url(../blocks/foto-grid/__image/foto-grid__image.css);
-
+  /* places */
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__card/places__card.css);
+@import url(../blocks/places/__card/_min_margin/places__card_min_margin.css);
 @import url(../blocks/places/__card-title/places__card-title.css);
 @import url(../blocks/places/__url/places__url.css);
 @import url(../blocks/places/__url-text/places__url-text.css);
@@ -37,3 +38,16 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__card-texts/places__card-texts.css);
 @import url(../blocks/places/__card-text/places__card-text.css);
+  /* road*/
+@import url(../blocks/road/__el/road__el.css);
+@import url(../blocks/road/__el/_active/road__el_active.css);
+@import url(../blocks/road/__image/road__image.css);
+@import url(../blocks/road/__text/road__text.css);
+@import url(../blocks/road/__title/road__title.css);  
+@import url(../blocks/road/__subtitle/road_subtitle.css); 
+  /*footer*/
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__autor/footer__autor.css);      
