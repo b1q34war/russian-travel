@@ -38,11 +38,11 @@
 @import url(../blocks/places/__card-text/places__card-text.css);
   /* road*/
 @import url(../blocks/road/__el/road__el.css);
-@import url(../blocks/road/__el/_active/road__el_active.css);
-@import url(../blocks/road/__image/road__image.css);
+@import url(../blocks/road/__el/_opacity/road__el_opacity_normal.css);
+@import url(../blocks/road/__el/_opacity/road__el_opacity_active.css);
 @import url(../blocks/road/__text/road__text.css);
 @import url(../blocks/road/__title/road__title.css);  
-@import url(../blocks/road/__subtitle/road_subtitle.css); 
+@import url(../blocks/road/__subtitle/road__subtitle.css); 
   /*footer*/
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__links/footer__links.css);

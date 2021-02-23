@@ -1,0 +1,10 @@
+.road__el:hover::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: " ";
+  background-image: url(../../../../images/__overlay-min_active.png);
+  text-decoration: none;
+}
