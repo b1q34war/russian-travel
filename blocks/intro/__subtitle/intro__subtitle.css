@@ -7,9 +7,3 @@
   font-size: 16px;
   line-height: 26px;
 }
-
-@media screen and (max-width: 767px) {
-  .intro__subtitle {
-    margin: 0 0 34px;
-  }
-}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>russian-travel</title>
+    <title>Путешествие по  России</title>
     <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
@@ -11,8 +11,8 @@
     <header class="header">
       <img class="header__logo" src="images/image.svg" alt="Russia">
       <div class="header__links">
-        <a class="header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a>
-        <a class="header__lang-link" href="#" target="_blank">En</a>
+        <a class="header__lang-link header__lang-link_active" href="#" target="_self">Ru</a>
+        <a class="header__lang-link" href="#" target="_self">En</a>
       </div>
     </header>
     <main class="content">
@@ -28,11 +28,11 @@
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li class="intro__list-text">Часовых поясов 11</li>
-          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list-text">Природных заповедников 105</li>
-          <li class="intro__list-text">Аэропортов 241</li>
+          <li class="intro__list-text">Часовых поясов <span class="intro__span-accent">11</span></li>
+          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+          <li class="intro__list-text">Природных заповедников <span class="intro__span-accent">105</span></li>
+          <li class="intro__list-text">Аэропортов <span class="intro__span-accent">241</span></li>
         </ul>
       </section>
       <section class="foto-grid">
@@ -119,18 +119,16 @@
         </ul>
       </section>
       <section class="road">
-        <article class="road__article">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="road__el road__el_opacity_normal road__el_opacity_active">
-            <div class="road__text">
-              <h2 class="road__title">До Байкала «на собаках»</h2>
-              <p class="road__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-            </div>   
-          </a>
-        </article>  
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="road__el road__el_opacity_normal road__el_opacity_active">
+          <div class="road__text">
+            <h2 class="road__title">До Байкала «на собаках»</h2>
+            <p class="road__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          </div>   
+        </a>
       </section>  
     </main>
-    <footer class="footer">
-      <div class="footer__container">
+    <footer class="footer footer__container">
+      <nav>
         <ul class="footer__links">
           <li class="footer__list"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
           <li class="footer__list"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
@@ -138,8 +136,8 @@
           <li class="footer__list"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
           <li class="footer__list"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
         </ul>
-        <p class="footer__autor">© 2021. Кириченко Евгений</p>
-      </div>
+      </nav>  
+      <p class="footer__autor">© 2021. Кириченко Евгений</p>
     </footer>
   </div>
 </body>
