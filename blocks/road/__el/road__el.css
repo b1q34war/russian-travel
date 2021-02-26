@@ -21,12 +21,12 @@
   left: 0;
   right: 0;
   content: " ";
-  background-image: url(../../../../images/__overlay-min_normal.png);
+  background-image: url(../../../images/__overlay-min_normal.png);
   text-decoration: none;
 }
 
 .road__el:hover::before {
-  background-image: url(../../../../images/__overlay-min_active.png);
+  background-image: url(../../../images/__overlay-min_active.png);
 }
 
 @media screen and (max-width: 1279px) {
